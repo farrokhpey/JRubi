@@ -46,7 +46,6 @@ public class Client {
                 apiVersion,
                 proxy,
                 timeout,
-                show_progress_bar,
-                platform1, apiVersion1);
+                show_progress_bar);
     }
 }

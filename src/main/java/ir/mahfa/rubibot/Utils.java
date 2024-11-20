@@ -8,4 +8,8 @@ public class Utils {
     public static String phoneNumberParse(String phoneNumber) {
         return phoneNumber;
     }
+
+    public static String randomTmpSession() {
+        return "";
+    }
 }

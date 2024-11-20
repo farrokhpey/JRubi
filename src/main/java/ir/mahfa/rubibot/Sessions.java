@@ -24,11 +24,11 @@ public class Sessions {
                 6,
                 client.proxy,
                 client.timeout,
-                true,
-                platform1, apiVersion1);
+                true);
         while (true) {
-            System.out.println("Enter the phone number » ");
-            String phoneNumber = System.console().readLine();
+//            System.out.println("Enter the phone number » ");
+//            String phoneNumber = System.console().readLine();
+            String phoneNumber = "+989369972779";
             try {
                 SendCodeData sendCodeData = methods.sendCode(phoneNumber, null, false);
             } catch (Exception e) {
